@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>Paradise Nursery</h2>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="products.html">Plants</a>
+        <a href="cart.html">Cart 🛒 <span id="cart-count">0</span></a>
+    </div>
+</nav>
+
+<h1 class="section-title">Shopping Cart</h1>
+
+<div id="cart-items"></div>
+
+<h2>Total: $<span id="cart-total">0</span></h2>
+
+<button onclick="checkout()">Checkout</button>
+<a href="products.html">
+    <button>Continue Shopping</button>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>

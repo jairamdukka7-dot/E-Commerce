@@ -1,0 +1,56 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+.landing {
+    background: url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6');
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+.landing-content {
+    padding-top: 200px;
+}
+
+.btn {
+    background: green;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: #2e8b57;
+    padding: 15px;
+    color: white;
+}
+
+nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+}
+
+button {
+    padding: 5px 10px;
+    margin-top: 5px;
+}
